@@ -15,3 +15,7 @@ console.log(menores);
 //sort
 productos.sort ((a, b) => a.nombre.localeCompare (b.nombre));
 console.log(productos)
+
+//map
+const soloNombres = productos.map (producto => producto.nombre);
+console.log(soloNombres)
