@@ -11,3 +11,7 @@ const productos = [
 //filter
 const menores = productos.filter(producto => producto.precio < 1000);
 console.log(menores);
+
+//sort
+productos.sort ((a, b) => a.nombre.localeCompare (b.nombre));
+console.log(productos)
