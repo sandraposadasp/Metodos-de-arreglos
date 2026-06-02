@@ -7,3 +7,7 @@ const productos = [
     {nombre: "Reloj TOUS", precio: 4500, categoria: "Joyería" },
     {nombre: "Bocina JBL", precio: 3700, categoria: "Audio" },
 ];
+
+//filter
+const menores = productos.filter(producto => producto.precio < 1000);
+console.log(menores);
